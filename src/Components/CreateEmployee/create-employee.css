@@ -1,0 +1,24 @@
+.create-employee .form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.create-employee .form-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 30%;
+}
+.create-employee .form-container form .form-control{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.create-employee .form-container form label{
+    min-width: 20%;
+}
+.create-employee .form-container form input,
+.create-employee .form-container form select{
+    width: 100%;
+}

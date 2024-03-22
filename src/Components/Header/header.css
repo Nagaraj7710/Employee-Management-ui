@@ -1,0 +1,26 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+
+.header-container .left {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.header-container .left .option {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-container .right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

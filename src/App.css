@@ -1,0 +1,65 @@
+input:not([type="file"]) {
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  height: 40px;
+}
+
+select {
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  height: 40px;
+}
+
+button {
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  color: #fff;
+  background: #195de6;
+  border-color: #195de6;
+  cursor: pointer;
+}
+
+.radio-btns {
+  display: flex;
+  align-items: center;
+}
+
+.radio-btns input {
+  margin-left: 30px;
+  margin-right: 5px;
+}
+
+.radio-btns input:first-child {
+  margin-left: 0;
+}
+
+.checkbox-grp {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-grp input {
+  margin-left: 30px;
+  margin-right: 5px;
+}
+
+.checkbox-grp input:first-child {
+  margin-left: 0;
+}
